@@ -1,13 +1,13 @@
 <nav class="navbar navbar-default navbar-static-top">
     <div class="container">
         <div class="navbar-header">
-            <a class="navbar-brand" href="#">Days Weather Forcast</a>
+            <a class="navbar-brand capitalize" href="#">5 days weather forcast - {{::vm.$stateParams.cityName}}</a>
         </div><!--/.nav-collapse -->
     </div>
 </nav>
 <div class="container">
     <div class="row">
-        <div class="col-xs-2" ng-repeat="report in vm.weatherAvg">
+        <div class="col-sm-2" ng-repeat="report in vm.weatherAvg">
             <div class="panel panel-default">
                 <div class="panel-heading">
                     <h4>{{::report.date.slice(0,3)}}</h4>

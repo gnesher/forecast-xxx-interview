@@ -18,6 +18,7 @@ You can control which city is displayed by using /<cityname> to the url
 1. Display the full day view (data already prepared within weatherDetails) of selected item
 2. Write tests
 3. Probably can make the design look a little prettier
+4. Add city search field (instead of manually changing url)
 
 ## known bugs:
 1. The open weather api seems to return partial results in some cases.

@@ -3,6 +3,7 @@
 import angular from 'angular';
 import _ from 'lodash';
 import moment from 'moment';
+
 const APIKEY = '21efdd909f0b05598a24d1b995fe7236';
 
 class weatherResource {
@@ -10,6 +11,7 @@ class weatherResource {
         this.$http = $http;
     }
 
+    // get 5 days weather forcast by city name, aggregate return data by days
     getFiveDayForcast(cityName) {
         return this.$http
             .get(`http://api.openweathermap.org/data/2.5/forecast?q=${cityName}&appid=${APIKEY}&units=metric`)

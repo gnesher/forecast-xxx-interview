@@ -4,7 +4,8 @@ import moment from 'moment';
 
 // Controller
 class weatherWidgetCtrl {
-    constructor(weatherDetails) {
+    constructor(weatherDetails, $stateParams) {
+        this.$stateParams = $stateParams;
         this.weatherDetails = weatherDetails;
         this.weatherAvg = []
         _.each(weatherDetails, (day) => {
@@ -18,7 +19,7 @@ class weatherWidgetCtrl {
 }
 
 // Inject dependencies into controller
-weatherWidgetCtrl.$inject = ['weatherDetails'];
+weatherWidgetCtrl.$inject = ['weatherDetails', '$stateParams'];
 
 // Inject dependencies into router
 routes.$inject = ['$stateProvider'];

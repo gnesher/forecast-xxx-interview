@@ -3,7 +3,7 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Template</title>
+        <title>5 Days Weather Forcast</title>
         <base href="{%= o.htmlWebpackPlugin.options.base %}">
     </head>
     <body>

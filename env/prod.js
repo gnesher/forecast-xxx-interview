@@ -1,3 +1,3 @@
 module.exports = {
-    PUBLIC_PATH: 'https://prod.domain.com'
+    PUBLIC_PATH: 'http://builtit.gnesher.com/'
 }
