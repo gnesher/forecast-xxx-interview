@@ -4,6 +4,9 @@ A 5 days weather forcast based on the http://openweathermap.org/ API.
 Created as an Interview excersize.
 Show the min/max average for the next 5 days in celsius.
 
+Solution uses ES6, Webpack, AngularJS and Bootstrap (along with a few extra libraries).
+Skeleton is based on work I'm doing in my current contract, I've clean it up but there might be a few unnecessery remnants. 
+
 ## Installation
 
 After pulling the repository run npm install to download dependencies
