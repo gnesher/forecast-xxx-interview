@@ -15,7 +15,7 @@ Or 'npm run build' to package the code for deployment
 
 ## Usage
 accessing the base route will load the weather for London. 
-You can control which city is displayed by using /<cityname> to the url
+You can control which city is displayed by adding the cityname to the end of the url aka /newyork
 
 ## possible additions:
 1. Display the full day view (data already prepared within weatherDetails) of selected item
